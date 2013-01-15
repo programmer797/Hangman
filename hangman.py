@@ -15,6 +15,7 @@ def check_link(urlfile):
     except urllib2.URLError as err: pass
     return False
 
+
 #Clear the terminal
 def cls():
     if not 'idlelib.run' in sys.modules:
